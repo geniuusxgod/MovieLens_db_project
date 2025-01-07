@@ -205,7 +205,7 @@ LIMIT 10;
 ```
 ---
 ### **Graf 2: Filmy s najväčším počtom hodnotení(Top-10)**
-Táto vizualizácia zobrazuje 10 najlepších filmov, ktoré používatelia hodnotia najčastejšie a ktoré majú najvyšší počet zostávajúcich hodnotení. Vizualizácia ukazuje, že s veľkým náskokom vyhráva film Hviezdne vojny: Epizóda IV - Nová nádej (1977).
+Táto vizualizácia zobrazuje 10 najlepších filmov, ktoré používatelia hodnotia najčastejšie a ktoré majú najvyšší počet zostávajúcich hodnotení. Vizualizácia ukazuje, že s veľkým náskokom vyhráva film `Star Wars: Episode IV - A New Hope (1977)`.
 
 ```sql
 SELECT 
@@ -219,7 +219,7 @@ LIMIT 10;
 ```
 ---
 ### **Graf 3: Trendy v hodnotení v priebehu rokov**
-Na tejto vizualizácii sledujeme počet hodnotení v priebehu rokov (2000-2003). Z grafu vyplýva, že v roku 2000 používatelia zanechali oveľa viac hodnotení ako v ostatných rokoch. Čo znamená, že v tomto roku boli používatelia pri sledovaní filmov aktívnejší.
+Na tejto vizualizácii sledujeme počet hodnotení v priebehu rokov (2000-2003). Z grafu vyplýva, že v roku `2000` používatelia zanechali oveľa viac hodnotení ako v ostatných rokoch. Čo znamená, že v tomto roku boli používatelia pri sledovaní filmov aktívnejší.
 
 ```sql
 SELECT 
