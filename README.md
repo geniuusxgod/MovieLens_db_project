@@ -184,7 +184,7 @@ DROP TABLE IF EXISTS tags_staging;
 Dashboard obsahuje `5 vizualizácií`. Ukazujú, ako pracovať s rozmerovými tabuľkami a analyzovať údaje používateľov, filmy a ich hodnotenia.
 
 <p align="center">
-  <img src="https://github.com/geniuusxgod/MovieLens_db_project//blob/main/dashboard.png" alt="Dashboard">
+  <img src="https://github.com/geniuusxgod/MovieLens_db_project/blob/main/dashboard.png" alt="Dashboard">
   <br>
   <em>Obrázok 3 Dashboard MovieLens</em>
 </p>
