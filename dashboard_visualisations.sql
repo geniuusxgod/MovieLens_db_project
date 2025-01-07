@@ -38,11 +38,7 @@ ORDER BY dt.hours ASC, du.age_group;
 
 SELECT 
     du.occupation,
-    dm.title AS movie_title,
-    AVG(fr.rating) AS avg_rating
+    AVG(fr.rating) AS total_rating
 FROM fact_ratings fr
 JOIN dim_users du ON fr.dim_userId = du.dim_userId
-JOIN dim_movies dm ON fr.dim_movieId = dm.dim_movieId
-GROUP BY du.occupation, dm.title
-HAVING AVG(fr.rating) >= 4.0
-ORDER BY du.occupation, avg_rating DESC;
+GROUP BY du.occupation;
