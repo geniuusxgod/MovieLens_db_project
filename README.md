@@ -257,3 +257,5 @@ FROM fact_ratings fr
 JOIN dim_users du ON fr.dim_userId = du.dim_userId
 GROUP BY du.occupation;
 ```
+---
+**Autor:** Pavlo Afanasiev
